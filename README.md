@@ -14,9 +14,13 @@ In addition to performing linear classification, SVM’s can efficiently perform
 ## How does SVM work?
 The main objective is to segregate the given data in the best possible way. The approach is to select maximum possible margin between support vectors in the given data set.
 To select the maximum hyper plane in the given set the SVM follows the following:
+
 •	It generates a hyper plane which segregates the classes in the best possible way and it selects the right hyper plane with maximum segregation from the nearest data points.
+
 •	In some cases where the hyper plane’s is not very efficient, it uses kernel method to transform the input into a higher dimensional space.
+
 •	SVM kernel is basically used to add more dimension to a lower dimensional space make it easier to segregate the data. It adds more dimension to the problem.
+
 •	SVM is always implemented by a kernel. The kernel helps to make a more accurate classifier.
 
 ### Different types of Kernels: 
@@ -60,7 +64,7 @@ Radial Basis Function Kernel: It is commonly used in SVM classification. It can 
 1. If the number of the features is much larger than number of samples, we have to avoid overfiting and choosing kernel functions
 2. SVM's do not provide probability estimates
 
-The entire code is available at [Github](  https://sahasya.github.io/Support-Vector-Machine/).
+The entire code is available at [Github]( ).
 
 
 
