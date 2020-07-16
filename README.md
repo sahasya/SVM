@@ -72,7 +72,7 @@ Radial Basis Function Kernel: It is commonly used in SVM classification. It can 
 •	SVM's do not provide probability estimates
 
 
-The entire code is available at [Github]().
+The entire code is available at [Github](https://sahasya.github.io/Support-Vector-Machine/).
 
 
 
