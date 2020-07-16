@@ -1,4 +1,4 @@
-### SUPPORT VECTOR MACHINE
+# SUPPORT VECTOR MACHINE
 
 Support vector machines (SVM) are supervised learning models with associated learning algorithms that analyze data used for regression and classification analysis.SVM algorithm is a popular machine learning tool that offers solutions for both classification and regression problems.
 The scatter plot given below, has two sets groups. We need to draw a classification boundary to separate these groups. There are many ways to draw a boundary. We can take the nearby data point a measure the distance. We have to maximize the distance between the data points and the margin. We use SVM to do it. The nearby data points is called Support Vectors. Hence the name Support Vector Machine. In a 2D space the boundary is a line, where in case of 3D the boundary is a plane. Hyperplane is a plane in n-dimension that tries to separate out certain classification groups.
@@ -18,7 +18,7 @@ To select the maximum hyper plane in the given set the SVM follows the following
 •	SVM kernel is basically used to add more dimension to a lower dimensional space make it easier to segregate the data. It adds more dimension to the problem.
 •	SVM is always implemented by a kernel. The kernel helps to make a more accurate classifier.
 
-# Different types of Kernels: 
+### Different types of Kernels: 
 Linear Kernel: It can be used as a dot product between any two given observations
 Polynomial Kernel: It is generalized form of linear kernels
 Radial Basis Function Kernel: It is commonly used in SVM classification. It can map the space in infinite dimension
@@ -39,13 +39,13 @@ Radial Basis Function Kernel: It is commonly used in SVM classification. It can 
 •	Generating the model by implementing the support vector machine
 •	Evaluate the model
 
-# Advantages: 
+### Advantages: 
 1. In high dimensional spaces
 2. In cases where the number of dimensions is greater than the number of samples
 3. It uses a subset of training points in the decision function that makes it memory efficient
 4.  Its versatile
 
-# Disadvantages:
+### Disadvantages:
 1. If the number of the features is much larger than number of samples, we have to avoid overfiting and choosing kernel functions
 2. SVM's do not provide probability estimates
 
