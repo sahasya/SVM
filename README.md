@@ -1,6 +1,7 @@
 # SUPPORT VECTOR MACHINE
 
 Support vector machines (SVM) are supervised learning models with associated learning algorithms that analyze data used for regression and classification analysis.SVM algorithm is a popular machine learning tool that offers solutions for both classification and regression problems.
+
 The scatter plot given below, has two sets groups. We need to draw a classification boundary to separate these groups. There are many ways to draw a boundary. We can take the nearby data point a measure the distance. We have to maximize the distance between the data points and the margin. We use SVM to do it. The nearby data points is called Support Vectors. Hence the name Support Vector Machine. In a 2D space the boundary is a line, where in case of 3D the boundary is a plane. Hyperplane is a plane in n-dimension that tries to separate out certain classification groups.
 
 ![svm](https://user-images.githubusercontent.com/67871795/87669378-7c6b2680-c78b-11ea-8f26-37120bcc339e.png)
@@ -25,18 +26,28 @@ Radial Basis Function Kernel: It is commonly used in SVM classification. It can 
 
 ## SVM Use Cases: 
 •	Face Detection
+
 •	Text and Hypertext Categorization
+
 •	Classification Of Images
+
 •	Bioinformatics
+
 •	Remote Homology Detection
+
 •	Handwriting Detection 
+
 •	Generalized Predictive Control
 
 ## How to Implement SVM? 
 •	Loading the data to perform the classification of data
+
 •	Exploring the data to see different variables, target variables
+
 •	Split the data into train and test data
+
 •	Generating the model by implementing the support vector machine
+
 •	Evaluate the model
 
 ### Advantages: 
