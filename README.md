@@ -55,14 +55,20 @@ Radial Basis Function Kernel: It is commonly used in SVM classification. It can 
 •	Evaluate the model
 
 ### Advantages: 
-1. In high dimensional spaces
-2. In cases where the number of dimensions is greater than the number of samples
-3. It uses a subset of training points in the decision function that makes it memory efficient
-4.  Its versatile
+•	In high dimensional spaces
+
+•	In cases where the number of dimensions is greater than the number of samples
+
+•	It uses a subset of training points in the decision function that makes it memory efficient
+
+•	Its versatile
+
 
 ### Disadvantages:
-1. If the number of the features is much larger than number of samples, we have to avoid overfiting and choosing kernel functions
-2. SVM's do not provide probability estimates
+•	If the number of the features is much larger than number of samples, we have to avoid overfiting and choosing kernel functions
+
+•	SVM's do not provide probability estimates
+
 
 The entire code is available at [Github]( ).
 
