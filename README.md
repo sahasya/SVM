@@ -49,7 +49,7 @@ Radial Basis Function Kernel: It is commonly used in SVM classification. It can 
 1. If the number of the features is much larger than number of samples, we have to avoid overfiting and choosing kernel functions
 2. SVM's do not provide probability estimates
 
-The entire code is available at [Github]( https://sahasya.github.io/SVM/).
+The entire code is available at [Github]( https://sahasya.github.io/Support-Vector-Machine/).
 
 
 
