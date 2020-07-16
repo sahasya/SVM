@@ -25,7 +25,9 @@ To select the maximum hyper plane in the given set the SVM follows the following
 
 ### Different types of Kernels: 
 Linear Kernel: It can be used as a dot product between any two given observations
+
 Polynomial Kernel: It is generalized form of linear kernels
+
 Radial Basis Function Kernel: It is commonly used in SVM classification. It can map the space in infinite dimension
 
 ## SVM Use Cases: 
@@ -70,7 +72,7 @@ Radial Basis Function Kernel: It is commonly used in SVM classification. It can 
 •	SVM's do not provide probability estimates
 
 
-The entire code is available at [Github]( https://sahasya.github.io/Support-Vector-Machine/).
+The entire code is available at [Github](https://sahasya.github.io/Support-Vector-Machine/).
 
 
 
